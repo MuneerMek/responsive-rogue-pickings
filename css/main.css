@@ -28,7 +28,6 @@ h4 {
 
 h1 {
   font-size: 1.875em;
-  border-bottom: 3px solid #77a466;
 }
 
 h2 {
@@ -44,6 +43,7 @@ h4 {
 }
 
 p {
+  font-size: 1rem;
   line-height: 36px;
 }
 
@@ -58,8 +58,8 @@ header {
 header h1 {
   margin: 0;
   width: 100%;
-  padding-top: 38px;
-  padding-bottom: 28px;
+  border-bottom: 3px solid #77a466;
+  padding: 38px 0 20px 0;
 }
 
 header h1 span {
@@ -80,7 +80,7 @@ header nav ul li {
   font-size: 0.875rem;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 10px 0px;
+  padding: 10px 0;
   width: 100%;
 }
 
@@ -101,7 +101,6 @@ header nav ul li a {
 .main-title h2 {
   color: #45610e;
   padding: 5px 0;
-  text-align: center;
 }
 
 /******** BOTTOM SECTION ********/
@@ -120,25 +119,20 @@ header nav ul li a {
 .section-two,
 .section-three {
   box-sizing: border-box;
-  padding: 0 40px;
-  width: 100%;
 }
 
 .section-one {
-  /* width: 29%; */
-  border-bottom: 5px solid #eee;
+  width: 100%;
 }
 
 .section-two {
-  /* width: 42%; */
+  width: 100%;
+  border-top: 5px solid #eee;
   border-bottom: 5px solid #eee;
-  /* border-left: 5px solid #eee;
-  border-right: 5px solid #eee; */
 }
 
 .section-three {
-  /* width: 29%; */
-  border-bottom: 5px solid #eee;
+  width: 100%;
 }
 
 .bottom-section h3 {
@@ -161,7 +155,6 @@ header nav ul li a {
 footer {
   display: flex;
   justify-content: center;
-  text-align: center;
   margin-top: 8px;
 }
 
@@ -172,16 +165,4 @@ footer span {
   font-size: 0.875rem;
 }
 
-/******** Tablet Media Query ********/
-/* @media for (min-width: ) {
-	body {
-		font-size:1em;
-	}
-} */
-
-/******** Desktop Media Query ********/
-/* @media for (min-width: ) {
-	body {
-		font-size:1em;
-	}
-} */
+/******** Media Queries ********/
